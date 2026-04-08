@@ -1,0 +1,23 @@
+/* src/index.css */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Verwijder de marges en padding van de body die Vite toevoegt */
+body {
+  margin: 0;
+  display: block; /* Vite zet dit soms op flex, dat willen we niet */
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* Zorg dat de root container de volledige breedte pakt */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Vite zet dit vaak op center */
+}
