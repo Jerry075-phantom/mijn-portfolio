@@ -98,7 +98,7 @@ export default function About({ dark, lang }) {
   const [ref, inView] = useInView();
 
   const stats = [
-    { value: "2+ jaar", label: { NL: "Programmeerervaring", EN: "Coding Experience" } },
+    { value: "2+ jaar", EN: "2+ Year", label: { NL: "Programmeerervaring", EN: "Coding Experience" } },
     { value: "5+", label: { NL: "Projecten gerealiseerd", EN: "Project Finished" } },
     { value: "CMS Expert", label: { NL: "Wordpress & Shopify", EN: "Wordpress & Shopify" } },
     { value: "Snel", label: { NL: "24u Reactietijd", EN: "24h Response Time" } },
