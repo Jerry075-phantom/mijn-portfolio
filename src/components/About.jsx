@@ -100,7 +100,7 @@ export default function About({ dark, lang }) {
   const stats = [
     { value: "100%", label: { NL: "Maatwerk", EN: "Custom" } },
     { value: "5+", label: { NL: "Projecten gerealiseerd", EN: "Projects Finished" } },
-    { value: "2+", label: { NL: "Maanden tot voltooing", EN: "Months until completion" } },
+    { value: "3+", label: { NL: "Maanden tot voltooing", EN: "Months until completion" } },
     { value: "24h", label: { NL: "Snel reactietijd", EN: "Fast Response Time" } },
   ];
 
