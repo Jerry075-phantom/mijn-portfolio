@@ -99,7 +99,7 @@ export default function About({ dark, lang }) {
 
   const stats = [
     { value: "2+ jaar", label: { NL: "Programmeerervaring", EN: "Coding Experience" } },
-    { value: "5+", label: { NL: "Projecten gerealiseerd", EN: "Project Finished" } },
+    { value: "5+", label: { NL: "Projecten gerealiseerd", EN: "Projects Finished" } },
     { value: "CMS Expert", label: { NL: "Wordpress & Shopify", EN: "Wordpress & Shopify" } },
     { value: "Snel", label: { NL: "24u reactietijd", EN: "Response Time" } },
   ];
