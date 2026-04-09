@@ -98,10 +98,10 @@ export default function About({ dark, lang }) {
   const [ref, inView] = useInView();
 
   const stats = [
-    { value: "100%", label: { NL: "Op maat gebouwd", EN: "Custom built" } },
-    { value: "10+", label: { NL: "Technologieën", EN: "Technologies" } },
-    { value: "24u", label: { NL: "Reactietijd", EN: "Response time" } },
-    { value: "∞", label: { NL: "Toewijding", EN: "Dedication" } },
+    { value: "2+ jaar", label: { NL: "Programmeerervaring", EN: "Coding Experience" } },
+    { value: "5+", label: { NL: "Projecten gerealiseerd", EN: "Project Finished" } },
+    { value: "CMS Expert", label: { NL: "Wordpress & Shopify", EN: "Wordpress & Shopify" } },
+    { value: "Snel", label: { NL: "24u Reactietijd", EN: "24h Response Time" } },
   ];
 
   const content = {
